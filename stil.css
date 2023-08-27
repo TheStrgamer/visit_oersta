@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #6ca5d6;
+    
+}
+img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+a{
+    color: #101010;
+    text-decoration: none;
+}
+h1, h2, h3, p, a, button {
+    font-family: 'Roboto', sans-serif;
+}
+#currentPage {
+    color: #a43437;
+}
+#banner {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #4e8abf;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    z-index: 5;
+    box-shadow: -4px 4px 16px #353535;
+    
+}
+#banner a{
+    color: #fafafa;
+}
+.toppboks {
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+}
+.toppboks:hover {
+    background-color: #77777754;
+}
+
+
+#logo {
+    width: 80%;
+    height: 100%;
+}
+
+#innholdsboks {
+    position: relative;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 75px;
+    box-shadow: -4px 4px 20px #353535;
+    background-color: #f0f0f0;
+    border-top: none;
+    border-radius: 0px 0px 25px 25px;
+}
+#forsidebilder{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    height:350px;
+    overflow: hidden;
+
+}
+#bakgrunnsbilde {
+    width:2500px;
+    height: 325px;
+    transition: 8000ms;
+    position:relative;
+}
+
+.bildeboks {
+    width: 300px;
+    height: 300px;
+    flex: auto;
+    overflow:hidden;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#zoom {
+    height: 500px;
+    width: 500px;
+    transition: 200ms;
+}
+#zoom:hover{
+    height: 575px;
+    width: 575px;
+    margin-top: -37.5px;
+    margin-left: -37.5px;
+}
+#bildetekst {
+    background-color: #616161a6;
+    position: relative;
+    height: 150px;
+    bottom: 50px;
+    border: 2px solid black;
+    transition: 200ms;
+    color: white;
+}
+#bildetekst:hover {
+    background-color: #616161f3;
+    bottom:150px;
+}
+
+#aktiviteterboks {
+    width:85%;
+    margin-left:auto; 
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+
+
+}
+
+#sponsor {
+    width:225px;
+    height:300px;
+    border:2px solid gray;
+    display: flex;
+    flex-direction: column;
+    background-color: #44444477;
+    border-radius: 15px;
+    text-align: center;  
+    box-shadow: -3px 3px #333333;  
+
+}
+#merboks {
+    background-color: #77777777;
+    font-size: 25px;
+}#merboks h1, #merboks h2, #merboks h3, #merboks p, #merboks a {
+    margin-left: 20px;
+}
+#merboks a:hover {
+    font-size: 27px;
+}
+
+#aktivitetside {
+    border-radius: 15px;
+    width:95%; 
+    height:500px;
+    margin-left:auto; 
+    margin-right:auto; 
+    display:flex; 
+    flex-direction: row;
+    
+    
+}
+
+#leggtil {
+    background-color: #00000027;
+    box-shadow: -2px 2px 10px #575787;
+    width: 450px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+#leggtil button{
+    background-color: green;
+    color: white;
+    width: 125px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+#reisetips {
+    width: 60%;
+    margin-left: 25px;
+    box-shadow: -2px 2px  #353535;
+    border-radius: 20px;
+    background-color: #b8b8b833;
+}
+#reisetips h3 {
+    background-color: #478031b9;
+    color: white;
+    line-height: 40px;
+}
+#knapp {
+    font-size:30px; 
+    background-color:green; 
+    color:white; 
+    text-align:center;
+}
+#kommentar {
+    width: 40%;
+    margin-left: 100px;
+    box-shadow: -2px 2px  #353535;
+    border-radius: 20px;
+    background-color: #b8b8b833;
+    font-size:15px;
+}
+#kommentar h3 {
+    background-color: #303030b9;
+    color: white;
+    line-height: 40px;
+    
+}
